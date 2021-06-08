@@ -8,7 +8,7 @@ export class Button extends Component {
 
     return (
       <button className="button" onClick={onClick} disabled={disabled}>
-        {this.props.text}
+        {text}
       </button>
     );
   }
